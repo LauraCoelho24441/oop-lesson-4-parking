@@ -21,7 +21,6 @@ namespace oop_lesson4_parking.modules
         {
             return "I am the CarParkCharge()";
         }
-
         public int CalculateCharge(int hoursParked)
         {
             int calculatedFee = hoursParked < minimumHours ? minimumFee : hoursParked * minimumFee;

@@ -8,7 +8,7 @@ namespace oop_lesson4_parking.modules
 {
     public class CarPark
     {
-        public List<Customer> listOfCustomers = new List<Customer>();
+        private List<Customer> listOfCustomers = new List<Customer>();
 
         public CarParkCharge carParkCharge = new CarParkCharge();
         public CarPark()
@@ -19,6 +19,11 @@ namespace oop_lesson4_parking.modules
         public override string ToString()
         {
             return "I am the CarPark()";
+        }
+
+        public void AddCustomer(Customer newCustomer)
+        {
+            listOfCustomers.Add(newCustomer);
         }
 
         public void CalculateCharges()
