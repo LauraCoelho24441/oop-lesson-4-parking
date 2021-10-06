@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oop-lesson4-parking", "oop-lesson4-parking.csproj", "{04134706-FB0C-4E84-8946-F1AA7436CF1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04134706-FB0C-4E84-8946-F1AA7436CF1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04134706-FB0C-4E84-8946-F1AA7436CF1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04134706-FB0C-4E84-8946-F1AA7436CF1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04134706-FB0C-4E84-8946-F1AA7436CF1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {923D59C2-6D79-4CC7-A629-385A5C13000F}
+	EndGlobalSection
+EndGlobal
